@@ -1,3 +1,4 @@
 v0.1: Three basic sections of the HTML project were added (09/04/24)
 v0.2: CSS file for styles was created (09/12/24)
 v0.3: favicon was added for the page (09/12/24)
+v0.3.1 favicon root was changed to assets/img (10/01/24)
