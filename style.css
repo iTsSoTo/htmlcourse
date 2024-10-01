@@ -1,0 +1,66 @@
+/*NORMALIZACION*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+
+}
+/* HEAD */
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 5%;
+
+}
+
+.logo {
+    
+    font-size: 42px;
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 400;
+}
+
+.nav-bar{
+    display: flex;
+    font-weight: 600;
+
+}
+
+.nav-bar a {
+    margin: 20px;
+    border-bottom: 2px dashed transparent;
+    transition: all .5s ease;
+}
+
+.nav-bar a:hover {
+    border-bottom: 2px dashed black;
+}
+
+#menu-icon {
+    display: none;
+}
+
+#menu-icon{
+    color: black;
+    font-size: 32px;
+    cursor: pointer;
+
+}
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon-action {
+    display: none;
+}

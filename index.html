@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML DigitalHouse</title>
@@ -24,31 +24,27 @@
 </head>
 
 <body>
-
+    <!--Header: Siempre lleva Logo y una Nav-Bar-->
     <header>
-        <h1>Andrés Soto</h1>
-        <!--Titulo de la página-->
-        <p>Welcome to my first (proper) web page, enjoy!</p>
-        <!--Descripción breve de la página-->
-    </header>
-    
-    <section>
-        <article>
-            <h2>About Me</h2>
-            <p>Soy un aspirante Junior a programación enfocada en aplicaciones web (FrontEnd) y Development en Base de Datos.</p>
-        </article>
-    </section>
+        <!--LOGO-->
+       <a href="#" class="logo">TheSetSoTo</a>
 
-    <footer>
-        <p>Todos los derechos reservados. TheSetSoto, 2024.</p>
-        <nav>
-            <ul>
-                <li><a href="">Contacto</a></li>
-                <li><a href="">Mas sobre mi</a></li>
-                <li><a href="">Información Legal</a></li>
-            </ul>
-        </nav>
-    </footer>
+       <!--menu-icon-->
+       <input type="checkbox" name="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon-action">
+        <div class='bx bx-menu-alt-right' id="menu-icon"></div>
+    </label>
+       
+       
+       <!--nav-bar-->
+       <ul class="nav-bar">
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Hobbies</a></li>
+        <li><a href="#">Recommendations</a></li>
+        <li><a href="#">Social Media</a></li>
+       </ul>
+
+    </header>
 
 </body>
 </html>
